@@ -1,0 +1,82 @@
+body{
+  background-color: hsl(254, 41%, 8%);
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  margin: 0px 220px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  background: #161B22;
+  border: 1px solid #30363D;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.main-container h1{
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 1px 2px purple;
+}
+.main-container input{
+  border: none;
+  font-size: 1.5rem;
+  margin: 0px 10px;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+}
+.search-btn{
+  background-color: rgb(7, 205, 7);
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.search-btn:hover{
+  background-color: rgba(2, 198, 2, 0.716);
+}
+.info-container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  background: #161B22;
+  border: 1px solid #30363D;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  height: 100%;
+}
+.info-container img{
+  border-radius: 50%;
+  width: 200px;
+  border: 3px solid rgb(73, 38, 127); 
+}
+
+h2{
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.info-container p{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+.info-container:hover{
+  box-shadow: 1px 2px 3px 2px rgb(41, 41, 255);
+}
+.main-container:hover{
+  box-shadow: 1px 2px 3px 2px rgb(41, 41, 255);
+}
