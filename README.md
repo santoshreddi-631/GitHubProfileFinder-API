@@ -33,7 +33,7 @@ A simple and modern React application that fetches GitHub user details using the
 Add your project screenshot here.
 
 ```md id="3a9gql"
-![Project Screenshot](./screenshot.png)
+![Project Screenshot](./src/assets/screenshot.png)
 
 ```
 
