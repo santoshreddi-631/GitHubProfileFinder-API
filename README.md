@@ -1,16 +1,172 @@
-# React + Vite
+# GitHub User Information App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern React application that fetches GitHub user details using the GitHub REST API. Users can search any GitHub username and view profile information such as avatar, bio, followers, repositories, and profile link.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 🔍 Search GitHub users by username
+* 👤 Display user profile information
+* 🖼️ User avatar preview
+* 📦 Public repositories count
+* 👥 Followers & following count
+* 🌐 Direct GitHub profile link
+* ⚡ Fast API fetching using Fetch API
+* 🎨 Modern responsive UI
+* 🔐 Secure GitHub token using `.env`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* JavaScript
+* CSS3
+* GitHub REST API
+* Vite
+
+---
+
+## 📸 Preview
+
+Add your project screenshot here.
+
+```md id="3a9gql"
+<img width="1915" height="1026" alt="image" src="https://github.com/user-attachments/assets/57de7e0b-9aef-49de-bae1-7d2d8518329d" />
+
+```
+
+---
+
+## 📂 Project Structure
+
+```bash id="v6q8nh"
+github-api/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── Github_API.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── .env
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash id="k9i8zj"
+git clone https://github.com/your-username/github-api.git
+```
+
+Navigate to the project folder:
+
+```bash id="x56c0u"
+cd github-api
+```
+
+Install dependencies:
+
+```bash id="v4kh5f"
+npm install
+```
+
+Start the development server:
+
+```bash id="2fw9qb"
+npm run dev
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env id="z41wlg"
+VITE_GITHUB_TOKEN=your_github_token
+```
+
+Generate your GitHub token from:
+
+[GitHub Personal Access Tokens](https://github.com/settings/tokens?utm_source=chatgpt.com)
+
+---
+
+## 📡 GitHub API Endpoint Used
+
+```bash id="8n3v5h"
+https://api.github.com/users/{username}
+```
+
+Official Documentation:
+
+[GitHub Users API Docs](https://docs.github.com/en/rest/users/users?utm_source=chatgpt.com#get-a-user)
+
+---
+
+## 💻 Example API Response
+
+```json id="w8k5ec"
+{
+  "login": "octocat",
+  "name": "The Octocat",
+  "bio": "GitHub mascot",
+  "public_repos": 8,
+  "followers": 100,
+  "following": 10
+}
+```
+
+---
+
+## ✨ Future Improvements
+
+* Repository list section
+* Dark / Light mode
+* Loading animations
+* Error handling improvements
+* Mobile responsiveness
+* Search history
+* User contribution graph
+
+---
+
+## 📚 What I Learned
+
+* React Hooks (`useState`)
+* API fetching with `fetch`
+* Async/Await
+* Environment variables in Vite
+* Conditional rendering
+* Handling loading and error states
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+Fork the repository and create a pull request.
+
+---
+
+## 📜 License
+
+This project is open source and available under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Santosh Reddi**
+
+* GitHub: [Santoshreddi-631 GitHub Profile](https://github.com/santoshreddi-631)
